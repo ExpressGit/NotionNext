@@ -256,7 +256,7 @@ const BLOG = {
   // ----> 站点统计
   ANALYTICS_VERCEL: process.env.NEXT_PUBLIC_ANALYTICS_VERCEL || true, // vercel自带的统计 https://vercel.com/docs/concepts/analytics/quickstart https://github.com/tangly1024/NotionNext/issues/897
   ANALYTICS_BUSUANZI_ENABLE: true, // 展示网站阅读量、访问数 see http://busuanzi.ibruce.info/
-  ANALYTICS_BAIDU_ID: process.env.NEXT_PUBLIC_ANALYTICS_BAIDU_ID || '', // e.g 只需要填写百度统计的id，[baidu_id] -> https://hm.baidu.com/hm.js?[baidu_id]
+  ANALYTICS_BAIDU_ID: process.env.NEXT_PUBLIC_ANALYTICS_BAIDU_ID || '3536ad998b08c9e692b8a5ef3b978ba9', // e.g 只需要填写百度统计的id，[baidu_id] -> https://hm.baidu.com/hm.js?[baidu_id]
   ANALYTICS_CNZZ_ID: process.env.NEXT_PUBLIC_ANALYTICS_CNZZ_ID || '', // 只需要填写站长统计的id, [cnzz_id] -> https://s9.cnzz.com/z_stat.php?id=[cnzz_id]&web_id=[cnzz_id]
   ANALYTICS_GOOGLE_ID: process.env.NEXT_PUBLIC_ANALYTICS_GOOGLE_ID || '', // 谷歌Analytics的id e.g: G-XXXXXXXXXX
 
@@ -277,8 +277,8 @@ const BLOG = {
 
   // 自定义配置notion数据库字段名
   NOTION_PROPERTY_NAME: {
-    password: process.env.NEXT_PUBLIC_NOTION_PROPERTY_PASSWORD || 'password',
-    type: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TYPE || 'type', // 文章类型，
+    password: process.env.NEXT_PUBLIC_NOTION_PROPERTY_PASSWORD || '密码',
+    type: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TYPE || '类型', // 文章类型，
     type_post: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TYPE_POST || 'Post', // 当type文章类型与此值相同时，为博文。
     type_page: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TYPE_PAGE || 'Page', // 当type文章类型与此值相同时，为单页。
     type_notice:
@@ -286,18 +286,18 @@ const BLOG = {
     type_menu: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TYPE_MENU || 'Menu', // 当type文章类型与此值相同时，为菜单。
     type_sub_menu:
       process.env.NEXT_PUBLIC_NOTION_PROPERTY_TYPE_SUB_MENU || 'SubMenu', // 当type文章类型与此值相同时，为子菜单。
-    title: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TITLE || 'title', // 文章标题
-    status: process.env.NEXT_PUBLIC_NOTION_PROPERTY_STATUS || 'status',
+    title: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TITLE || '标题', // 文章标题
+    status: process.env.NEXT_PUBLIC_NOTION_PROPERTY_STATUS || '状态',
     status_publish:
       process.env.NEXT_PUBLIC_NOTION_PROPERTY_STATUS_PUBLISH || 'Published', // 当status状态值与此相同时为发布，可以为中文
     status_invisible:
       process.env.NEXT_PUBLIC_NOTION_PROPERTY_STATUS_INVISIBLE || 'Invisible', // 当status状态值与此相同时为隐藏发布，可以为中文 ， 除此之外其他页面状态不会显示在博客上
-    summary: process.env.NEXT_PUBLIC_NOTION_PROPERTY_SUMMARY || 'summary',
-    slug: process.env.NEXT_PUBLIC_NOTION_PROPERTY_SLUG || 'slug',
-    category: process.env.NEXT_PUBLIC_NOTION_PROPERTY_CATEGORY || 'category',
-    date: process.env.NEXT_PUBLIC_NOTION_PROPERTY_DATE || 'date',
-    tags: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TAGS || 'tags',
-    icon: process.env.NEXT_PUBLIC_NOTION_PROPERTY_ICON || 'icon'
+    summary: process.env.NEXT_PUBLIC_NOTION_PROPERTY_SUMMARY || '摘要',
+    slug: process.env.NEXT_PUBLIC_NOTION_PROPERTY_SLUG || '链接',
+    category: process.env.NEXT_PUBLIC_NOTION_PROPERTY_CATEGORY || '分类',
+    date: process.env.NEXT_PUBLIC_NOTION_PROPERTY_DATE || '日期',
+    tags: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TAGS || '标签',
+    icon: process.env.NEXT_PUBLIC_NOTION_PROPERTY_ICON || '图标'
   },
 
   // RSS
