@@ -24,6 +24,7 @@ const CommonHead = ({ meta, children }) => {
         content="width=device-width, initial-scale=1.0, user-scalable=no"
       />
       <meta name="robots" content="follow, index" />
+      <meta name="baidu-site-verification" content="codeva-qhjaoeF5Gb" />
       <meta charSet="UTF-8" />
       {BLOG.SEO_GOOGLE_SITE_VERIFICATION && (
         <meta
