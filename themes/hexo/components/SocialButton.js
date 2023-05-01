@@ -24,6 +24,9 @@ const SocialButton = () => {
       {BLOG.CONTACT_BILIBILI && <a target='_blank' rel='noreferrer' href={BLOG.CONTACT_BILIBILI} title={'bilibili'} >
         <i className='transform hover:scale-125 duration-150 fab fa-bilibili dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
+      {BLOG.CONTACT_YOUTUBE && <a target='_blank' rel='noreferrer' href={BLOG.CONTACT_YOUTUBE} title={'youtube'} >
+        <i className='transform hover:scale-125 duration-150 fab fa-youtube dark:hover:text-indigo-400 hover:text-indigo-600'/>
+      </a>}
       {BLOG.CONTACT_WEIBO && <a target='_blank' rel='noreferrer' title={'weibo'} href={BLOG.CONTACT_WEIBO} >
         <i className='transform hover:scale-125 duration-150 fab fa-weibo dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
