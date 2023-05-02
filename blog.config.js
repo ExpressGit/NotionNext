@@ -16,7 +16,7 @@ const BLOG = {
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '三哥', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '一个乐于探索AI世界的搬砖人', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://aiexplorer.com', // 网站地址
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'AI,人工智能,ChatGPT,Stable Diffusion,Auto-GPT,深度学习,强化学习,机器学习,IT知识,博客', // 网站关键词 英文逗号隔开
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'AI,人工智能,ChatGPT,Stable Diffusion,Auto-GPT,GPT4,Free,AI热点,AI文章,AI体验,AI服务,语音识别,语音克隆,文生图,图生图,文生视频,文本转语音,语音生成,图像分割,深度学习,强化学习,机器学习,IT知识,博客', // 网站关键词 英文逗号隔开
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'aiwork@aiexplorer.blog', // 邮箱地址 例如mail@tangly1024.com
   CONTACT_WEIBO: process.env.NEXT_PUBLIC_CONTACT_WEIBO || '', // 你的微博个人主页
