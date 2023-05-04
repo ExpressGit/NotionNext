@@ -24,6 +24,7 @@ const CommonHead = ({ meta, children }) => {
         content="width=device-width, initial-scale=1.0, user-scalable=no"
       />
       <meta name="robots" content="follow, index" />
+      <meta name="baidu-site-verification" content="codeva-qhjaoeF5Gb" />
       <meta charSet="UTF-8" />
       {BLOG.SEO_GOOGLE_SITE_VERIFICATION && (
         <meta
@@ -35,10 +36,10 @@ const CommonHead = ({ meta, children }) => {
       <meta name="description" content={description} />
       <meta property="og:locale" content={lang} />
       <meta property="og:title" content={title} />
-      <meta property="og:description" content={description} />
+      {/* <meta property="og:description" content={description} /> */}
       <meta property="og:url" content={url} />
       <meta property="og:image" content={image} />
-      <meta property="og:site_name" content={BLOG.TITLE} />
+      {/* <meta property="og:site_name" content={BLOG.TITLE} /> */}
       <meta property="og:type" content={type} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:description" content={description} />
